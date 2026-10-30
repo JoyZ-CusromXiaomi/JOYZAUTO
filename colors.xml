@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema terang: solid, flat, tanpa gradasi -->
+    <color name="joy_primary">#2F6F5E</color>
+    <color name="joy_on_primary">#FFFFFF</color>
+    <color name="joy_primary_container">#CFE8DE</color>
+    <color name="joy_on_primary_container">#0B2A22</color>
+    <color name="joy_secondary_container">#DCE8E2</color>
+    <color name="joy_on_secondary_container">#16211D</color>
+    <color name="joy_background">#F7F6F2</color>
+    <color name="joy_surface">#FFFFFF</color>
+    <color name="joy_on_surface">#1B1D1C</color>
+    <color name="joy_surface_variant">#E4E8E5</color>
+    <color name="joy_on_surface_variant">#5A625E</color>
+    <color name="joy_outline">#8B938F</color>
+    <color name="joy_outline_variant">#D9DEDB</color>
+
+    <color name="status_on">#2E9E6B</color>
+    <color name="status_off">#9AA39F</color>
+
+    <color name="ic_launcher_background">#2F6F5E</color>
+</resources>

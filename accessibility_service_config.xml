@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Konfigurasi layanan aksesibilitas.
+    - canPerformGestures: wajib agar dispatchGesture() (usapan layar) diizinkan.
+    - canRetrieveWindowContent: hanya dipakai untuk membaca NAMA PAKET aplikasi yang sedang terbuka
+      (supaya scroll hanya jalan di aplikasi video pendek). Isi layar tidak dibaca.
+    - Event dibatasi ke perubahan jendela saja agar ringan.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault"
+    android:canPerformGestures="true"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="200" />

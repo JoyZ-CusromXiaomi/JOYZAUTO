@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto Scroll Joy</string>
+    <string name="app_tagline">Scroll otomatis untuk video pendek</string>
+
+    <!-- Layar utama -->
+    <string name="master_title">Auto Scroll</string>
+    <string name="status_need_accessibility">Aktifkan layanan aksesibilitas dulu</string>
+    <string name="status_off">Nonaktif</string>
+    <string name="status_no_mode">Aktif, tapi belum ada mode pemicu</string>
+    <string name="status_on">Aktif · %1$s</string>
+    <string name="mode_short_eye">Kepala</string>
+    <string name="mode_short_timer">Timer</string>
+    <string name="mode_short_voice">Suara</string>
+
+    <string name="section_permissions">Izin</string>
+    <string name="perm_accessibility">Layanan Aksesibilitas</string>
+    <string name="perm_camera">Kamera</string>
+    <string name="perm_mic">Mikrofon</string>
+    <string name="perm_state_on">Aktif</string>
+    <string name="perm_state_off">Belum aktif</string>
+    <string name="perm_state_granted">Diizinkan</string>
+    <string name="perm_state_not_granted">Belum diizinkan</string>
+    <string name="btn_enable">Aktifkan</string>
+    <string name="btn_grant">Izinkan</string>
+    <string name="btn_manage">Kelola</string>
+    <string name="restricted_hint">Jika opsi aktif berwarna abu-abu (Android 13+, APK dari luar Play Store): buka Info Aplikasi → menu ⋮ → Izinkan setelan terbatas, lalu coba lagi.</string>
+
+    <string name="section_modes">Mode pemicu</string>
+    <string name="mode_eye_title">Gerakan kepala (kamera depan)</string>
+    <string name="mode_eye_desc">Dongakkan kepala sedikit untuk scroll</string>
+    <string name="mode_timer_title">Timer durasi video</string>
+    <string name="mode_timer_desc">Scroll otomatis setiap beberapa detik</string>
+    <string name="mode_voice_title">Perintah suara</string>
+    <string name="mode_voice_desc">Ucapkan kata kunci untuk scroll</string>
+
+    <string name="btn_settings">Pengaturan</string>
+    <string name="privacy_note">Gambar kamera diproses di perangkat dan tidak disimpan. Pengenalan suara memakai layanan suara bawaan Android; tergantung perangkat, bisa berjalan online.</string>
+
+    <string name="dialog_acc_title">Aktifkan Layanan Aksesibilitas</string>
+    <string name="dialog_acc_message">Auto Scroll Joy memakai layanan aksesibilitas hanya untuk mensimulasikan usapan layar ke atas dan mengetahui aplikasi apa yang sedang terbuka. Isi layar tidak dibaca atau disimpan.\n\nDi halaman berikutnya, pilih \"Auto Scroll Joy\" lalu nyalakan.</string>
+    <string name="btn_open_settings">Buka Setelan</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="perm_denied_permanent">Izin ditolak. Aktifkan lewat setelan aplikasi.</string>
+
+    <!-- Layar pengaturan -->
+    <string name="settings_title">Pengaturan</string>
+
+    <string name="section_eye">Gerakan kepala</string>
+    <string name="eye_sensitivity">Sensitivitas</string>
+    <string name="eye_sensitivity_hint">Makin tinggi, makin kecil dongakan yang dibutuhkan.</string>
+
+    <string name="section_scroll">Gaya scroll</string>
+    <string name="scroll_speed">Kecepatan</string>
+    <string name="scroll_speed_hint">Kiri pelan, kanan cepat.</string>
+    <string name="scroll_smoothness">Kehalusan</string>
+    <string name="scroll_smoothness_hint">Makin tinggi, jalur usapan makin melengkung dan natural.</string>
+
+    <string name="section_timer">Timer</string>
+    <string name="timer_seconds">Durasi tonton per video</string>
+    <string name="timer_jitter">Variasi acak ±20%</string>
+    <string name="timer_jitter_hint">Supaya jeda antar scroll tidak terasa seperti robot.</string>
+
+    <string name="section_voice">Perintah suara</string>
+    <string name="voice_keywords_hint">Kata kunci (pisahkan dengan koma)</string>
+    <string name="voice_keywords_help">Contoh: scroll, next, b. Uji dulu; huruf tunggal kadang sulit dikenali.</string>
+
+    <string name="section_general">Umum</string>
+    <string name="supported_only">Hanya di aplikasi video pendek</string>
+    <string name="supported_only_hint">TikTok, Instagram, YouTube, Facebook, Snapchat, Kwai.</string>
+    <string name="btn_test">Uji scroll (3 detik)</string>
+    <string name="test_toast">Buka aplikasi video pendek sekarang…</string>
+    <string name="test_need_service">Aktifkan layanan aksesibilitas di layar utama dulu.</string>
+
+    <string name="value_ratio">%1$d/10</string>
+    <string name="value_percent">%1$d%%</string>
+    <string name="value_seconds">%1$d dtk</string>
+
+    <!-- Notifikasi foreground service -->
+    <string name="notif_channel_name">Sensor Auto Scroll</string>
+    <string name="notif_title">Auto Scroll Joy aktif</string>
+    <string name="notif_text_sensors">Sensor kamera/suara sedang berjalan</string>
+    <string name="notif_action_stop">Matikan</string>
+
+    <!-- Layanan aksesibilitas -->
+    <string name="accessibility_service_label">Auto Scroll Joy</string>
+    <string name="accessibility_service_description">Mensimulasikan usapan layar ke atas agar video pendek berpindah otomatis.</string>
+</resources>
